@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alejandro Montoya Torres | CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div class="container">
+  <header>
+    <div>
+      <h1 data-i18n="name">Alejandro Montoya Torres</h1>
+      <div class="subtitle" data-i18n="headline">Ingeniero en Sistemas | Application Support (L2/L3) | Java & SQL</div>
+      <div class="subtitle">📞 +52 5510620995 · ✉️ isc.alejandro14@icloud.com · <a href="#" data-i18n="location">México (Remoto / Híbrido / Presencial)</a></div>
+    </div>
+    <div class="btn-row">
+      <button id="langToggle">EN / ES</button>
+      <button class="primary" onclick="downloadLang('es')" data-i18n="pdfEs">Descargar PDF (ES)</button>
+      <button class="primary" onclick="downloadLang('en')" data-i18n="pdfEn">Download PDF (EN)</button>
+    </div>
+  </header>
+
+  <section>
+    <h2 data-i18n="aboutTitle">Sobre mí</h2>
+    <p data-i18n="about">
+      Ingeniero en Sistemas con experiencia en soporte técnico especializado y análisis de incidencias en producción.
+      Enfocado en soporte a aplicaciones y bases de datos: SQL avanzado, monitoreo, lectura y debugging de código Java/Spring Boot.
+      Trabajo bajo SLAs e ITIL, documentando causa raíz y colaborando con desarrollo para resolver fallos críticos.
+      Certificaciones: Azure Fundamentals, Oracle Cloud, Scrum Fundamentals.
+    </p>
+  </section>
+
+  <section>
+    <h2 data-i18n="skillsTitle">Habilidades técnicas</h2>
+    <div class="grid-3">
+      <div>
+        <strong data-i18n="skillSupport">Soporte & Gestión</strong>
+        <ul>
+          <li>Service Desk, ITIL, SLA</li>
+          <li>Jira, BMC Remedy, Mitrol</li>
+          <li>Troubleshooting / Root Cause</li>
+        </ul>
+      </div>
+      <div>
+        <strong data-i18n="skillDB">Bases de datos</strong>
+        <ul>
+          <li>Oracle, PostgreSQL, MySQL, SQLite</li>
+          <li>Consultas complejas, optimización</li>
+          <li>Monitoreo e integridad de datos</li>
+        </ul>
+      </div>
+      <div>
+        <strong data-i18n="skillBackend">Backend & Código</strong>
+        <ul>
+          <li>Java 8/11, Spring Boot, REST</li>
+          <li>Lectura de logs, debugging</li>
+          <li>Hibernate, DTOs, Microservicios</li>
+        </ul>
+      </div>
+      <div>
+        <strong data-i18n="skillCloud">Nube & Infra</strong>
+        <ul>
+          <li>Azure (AZ-900), Oracle Cloud (OCI)</li>
+          <li>AWS (Lambda), Linux, Bash</li>
+          <li>Windows Server, AD, Firewalls</li>
+        </ul>
+      </div>
+      <div>
+        <strong>Dev & CI/CD</strong>
+        <ul>
+          <li>Git/GitHub, Bitbucket, GitHub Actions</li>
+          <li>Postman, Scrum, Agile</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="projectsTitle">Proyectos destacados</h2>
+    <div class="item">
+      <div><strong>E-commerce Óptico + Citas</strong> · Java, Spring Boot, PostgreSQL, AWS Lambda, HTML/CSS/JS, Bootstrap</div>
+      <div class="meta" data-i18n="proj1Date">Feb 2024 – May 2024 · Generation México</div>
+      <ul>
+        <li data-i18n="proj1a">APIs REST para catálogo, pedidos y agenda de citas.</li>
+        <li data-i18n="proj1b">Despliegue serverless en AWS Lambda; integración frontend responsiva.</li>
+        <li data-i18n="proj1c">Optimización de consultas SQL y validación de integridad de datos.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>Transacciones Bancarias APX (BBVA)</strong> · Java 8, Oracle SQL, DTOs, Bitbucket</div>
+      <div class="meta">Ago 2022 – Nov 2022 · IDS Comercial TI (Contrato de formación)</div>
+      <ul>
+        <li data-i18n="proj2a">Debugging de lógica de negocio en arquitectura APX bajo estándares bancarios.</li>
+        <li data-i18n="proj2b">Consultas complejas en Oracle SQL para asegurar integridad de operaciones.</li>
+        <li data-i18n="proj2c">Control de versiones y code reviews en entornos ágiles.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="expTitle">Experiencia profesional</h2>
+    <div class="item">
+      <div><strong>SI Evolución</strong> · <span data-i18n="exp1Role">Soporte Técnico Especializado</span></div>
+      <div class="meta">Jun 2024 – Ene 2026 · México</div>
+      <ul>
+        <li data-i18n="exp1a">Monitoreo y diagnóstico de incidencias en bases de datos productivas.</li>
+        <li data-i18n="exp1b">Resolución de errores SQL post-migración; análisis de logs.</li>
+        <li data-i18n="exp1c">Documentación técnica y reducción de recurrencia vía causa raíz.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>INFOTEC</strong> · Soporte / Backend Freelance</div>
+      <div class="meta">Nov 2022 – Feb 2024 · Remoto</div>
+      <ul>
+        <li>Mantenimiento y soporte a apps Java Spring Boot.</li>
+        <li>Consultas y optimización SQL en PostgreSQL.</li>
+        <li>Debugging de CRUD y APIs REST; trabajo ágil.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>Grupo Salinas</strong> · Analista Service Desk / L2</div>
+      <div class="meta">Jul 2021 – Jul 2022 · CDMX</div>
+      <ul>
+        <li>20–30 tickets/día; SLA &gt; 95%; solución &lt; 30 min.</li>
+        <li>Consultas SQL en SQLite para diagnóstico.</li>
+        <li>Gestión de escalamiento y base de conocimiento.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>IDS / BBVA</strong> · Desarrollador APX (Contrato de formación)</div>
+      <div class="meta">Ago 2022 – Nov 2022 · Remoto</div>
+      <ul>
+        <li>Debugging de transacciones en Java 8 + DTOs.</li>
+        <li>Consultas complejas en Oracle SQL.</li>
+        <li>Git/Bitbucket en entornos ágiles.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>Dell / Focus on Service</strong> · Ing. de Campo & Supervisor TI</div>
+      <div class="meta">2015 – 2017 · México</div>
+      <ul>
+        <li>Migraciones masivas en SEDENA, Pemex, banca.</li>
+        <li>Windows Server, firewalls, Active Directory.</li>
+        <li>Coordinación de cuadrillas y SLAs en sitio.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>SAT</strong> · Analista de Datos / IAM</div>
+      <div class="meta">2018 – 2019 · México</div>
+      <ul>
+        <li>Gestión de usuarios y accesos (IAM) en sistemas internos.</li>
+        <li>Validación de integridad de datos; reporting en Excel.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>UAEM</strong> · Soporte Técnico Especializado</div>
+      <div class="meta">2011 – 2014 · México</div>
+      <ul>
+        <li>Soporte L2 a apps críticas (IMSS BETA), SQL Server.</li>
+        <li>Redes: routers, switches; mantenimiento preventivo.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div><strong>Preparatoria Oficial 66</strong> · Profesor TI</div>
+      <div class="meta">2019 – 2020 · México</div>
+      <ul>
+        <li>Clases de Ofimática y programación básica.</li>
+        <li>Gestión de red y 100+ equipos; soporte en sitio.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="eduTitle">Educación y certificaciones</h2>
+    <div class="item">
+      <div><strong>Ingeniero en Sistemas Computacionales</strong></div>
+      <div class="meta">Tecnológico de Estudios Superiores de Chalco</div>
+    </div>
+    <div class="pill-list" style="margin-top:10px;">
+      <span class="pill">Microsoft Azure Fundamentals (AZ-900)</span>
+      <span class="pill">Oracle Cloud Infrastructure (OCI)</span>
+      <span class="pill">Scrum Fundamentals (SFC)</span>
+      <span class="pill">Google IT Support (Coursera)</span>
+      <span class="pill">Google Cybersecurity (En curso)</span>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="contactTitle">Contacto</h2>
+    <p>📧 isc.alejandro14@icloud.com · 📞 +52 5510620995 · <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> · <a href="https://github.com" target="_blank">GitHub</a></p>
+  </section>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
